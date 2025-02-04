@@ -2,14 +2,27 @@
     padding: 1;
     margin: 0;
 }
+/* change the nav to be on the right of the logo*/
 nav{
     display: flex;
     position: relative;
     width: fit-content;
     padding-right: 1rem;
+    text-decoration: none;
 }
+/* capitalise the logo and increase the size*/
 #logo{
-    font-size: 180%;
+    font-size: 150%;
     text-transform: uppercase;
     text-decoration: none;
+}
+/*nav toggle*/
+#nav-toggle:checked~nav {
+display: block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 2rem;
 }
