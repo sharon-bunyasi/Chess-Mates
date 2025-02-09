@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.nav-links{
+    background-color: bisque;
+    position: absolute;
+    padding: 0,1rem;
+    box-shadow: 0 2px 2px bisque;
+    right: 0%;
+    top: 0;
+    z-index: 2px;
+}
+.nav-links ul li{
+    list-style: none;
+    position: relative;
+    padding: 8px 12px;
+    display: inline-block;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+}
